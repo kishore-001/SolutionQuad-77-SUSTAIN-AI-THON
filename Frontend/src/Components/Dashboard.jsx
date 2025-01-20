@@ -12,9 +12,6 @@ function CropPredictionForm() {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json',
-                "Access-Control-Allow-Origin": "*",
-                "Access-Control-Allow-Methods": "GET, POST, PUT, DELETE, OPTIONS",
-                "Access-Control-Allow-Headers": "Content-Type, Authorization",
             },
             body: JSON.stringify({
                 temperature: parseFloat(temperature),
@@ -23,8 +20,7 @@ function CropPredictionForm() {
             }),
         });
         const data = await response.json();
-        setPrediction(data.crop);
-        console.log(data.crop)  // Display the predicted crop
+        setPrediction(data.crop);  // Display the predicted crop
     };
 
     return (
