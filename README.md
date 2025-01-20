@@ -8,7 +8,7 @@ Uran Sprout is a smart agriculture solution that leverages real-time soil data t
 
 ## 2. Workflow Diagram
 
-![Workflow Diagram](./Frontend/src/assets/img/flowchart.png)
+![Workflow Diagram](./Frontend/src/assets/img/flowchart.jpeg)
 
 ## 3. Concept Map
 
